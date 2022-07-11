@@ -30,7 +30,7 @@
       Heinz Holling \\
       WWU M\"unster
       \And
-      Bernado Sousa-Pinto\\ 
+      Bernardo Sousa-Pinto\\ 
       University of Porto}
 
 \Plainauthor{Philipp Doebler, Heinz Holling} %% comma-separated
