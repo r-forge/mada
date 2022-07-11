@@ -25,7 +25,7 @@
 
 \title{Meta-Analysis of Diagnostic Accuracy with  \pkg{mada}}
 \author{Philipp Doebler \\
-      WWU M\"unster
+      TU Dortmund University
       \And
       Heinz Holling \\
       WWU M\"unster
