@@ -90,11 +90,13 @@ importFrom(metafor,rma)
 importFrom("graphics", "abline", "arrows", "axis", "lines", "plot",
              "points", "polygon", "text", "hist", "legend", "par", "strheight",
                 "strwidth")
-  importFrom("stats", "AIC", "BIC", "coef", "confint", "cor", "dbinom",
+importFrom("stats", "AIC", "BIC", "coef", "confint", "cor", "dbinom",
              "lm", "logLik", "lowess", "make.link", "median",
              "model.matrix", "pbinom", "pchisq", "plogis", "pnorm",
              "printCoefmat", "prop.test", "qbeta", "qchisq", "qnorm",
              "rbinom", "rpois", "runif", "splinefun", "symnum",
              "uniroot", "vcov", "dbeta", "density", "pbeta", "quantile", "rbeta",
                 "sd", "aggregate")
-    importFrom("grDevices", "dev.off", "recordPlot")
+importFrom("grDevices", "dev.off", "recordPlot")
+    
+importFrom("methods", "is")
