@@ -21,7 +21,7 @@ reitsma.default <-
               is.numeric(FN) | (is.character(FN) & length(FN) == 1))
     
     if(is.null(formula)){formula <- cbind(tsens,tfpr)~1}
-    if(!class(formula) == "formula"){stop("formula must be of class formula")}
+    if(!is(formula, "formula")){stop("formula must be of class formula")}
     if(!formula[2] == (cbind(tsens,tfpr)~1)[2]){stop("The left hand side of formula must be cbind(tsens, tfpr)")}
     
     if(!is.null(data) & is.character(c(TP,FP,TN,FN))){
@@ -497,7 +497,7 @@ calc_hsroc_coef <- function(fit){
 
 anova.reitsma <- function(object, fit2, ...){
   fit1 <- object
-  if(!(class(fit1) == "reitsma" & class(fit2) == "reitsma")){
+  if(!(is(fit1, "reitsma") & is(fit2, "reitsma"))){
     stop("This function is only for models of class 'reitsma'.")
   }
   if(!(fit1$method == "ml" & fit2$method == "ml")){

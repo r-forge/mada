@@ -28,7 +28,10 @@
       WWU M\"unster
       \And
       Heinz Holling \\
-      WWU M\"unster}
+      WWU M\"unster
+      \And
+      Bernado Sousa-Pinto\\ 
+      University of Porto}
 
 \Plainauthor{Philipp Doebler, Heinz Holling} %% comma-separated
 \Plaintitle{Meta-Analysis of Diagnostic Accuracy with mada} %% without formatting
