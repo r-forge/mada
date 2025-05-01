@@ -2,8 +2,15 @@ Package: mada
 Type: Package
 Title: Meta-Analysis of Diagnostic Accuracy
 Version: 0.5.12
-Date: 2025-04-22
-Author: Philipp Doebler with contributions from Bernardo Sousa-Pinto
+Date: 2025-05-01
+Authors@R: c(person("Philipp", "Doebler", role = c("aut", "cre"),
+                     email = "philipp.doebler@googlemail.com",
+                     comment = c(ORCID = "0000-0002-2946-8526")),
+              person("Bernado", "Sousa-Pinto", role = "ctb",
+                     email = "bernardo@med.up.pt",
+                     comment = c(ORCID = "0000-0002-1277-3401")))
+Author: Philipp Doebler [aut, cre],
+  Bernardo Sousa-Pinto [ctb]
 Maintainer: Philipp Doebler <philipp.doebler@googlemail.com>
 Description: Provides functions for diagnostic meta-analysis. Next to basic analysis and visualization the bivariate Model of Reitsma et al. (2005) that is equivalent to the HSROC of Rutter & Gatsonis (2001) can be fitted. A new approach based to diagnostic meta-analysis of Holling et al. (2012) is also available. Standard methods like summary, plot and so on are provided.
 Depends: R (>= 3.5.0), stats, mvtnorm, ellipse, mvmeta, metafor
