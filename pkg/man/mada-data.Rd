@@ -42,7 +42,7 @@ The \code{AuditC} data is from Kriston et al. (2008). The \code{Dementia} from M
 }
 
 \source{
-Kriston, L., H{\"o}lzel, L., Weiser, A., Berner, M., & Haerter, M. (2008). \dQuote{Meta-analysis: Are 3 Questions Enough to Detect Unhealthy Alcohol Use?} \emph{Annals of Internal Medicine}, \bold{149}, 879--888.
+Kriston, L., Hölzel, L., Weiser, A., Berner, M., & Haerter, M. (2008). \dQuote{Meta-analysis: Are 3 Questions Enough to Detect Unhealthy Alcohol Use?} \emph{Annals of Internal Medicine}, \bold{149}, 879--888.
 
 Mitchell, A. (2009). \dQuote{A meta-analysis of the accuracy of the mini-mental state examination in the detection of dementia and mild cognitive impairment.} \emph{Journal of Psychiatric Research}, \bold{43}, 411--431.
 
